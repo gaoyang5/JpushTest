@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "JpushTest"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "ceshi JpushTest cocoapods "
 
   # This description is used to generate tags and improve search results.
@@ -92,7 +92,7 @@ ios-cocoapods方式集成极光-liveneo-gaoyang
   #
 
  # s.source_files  = "Classes", "Classes/**/*.{h,m}"
-   source_files =  "lib/*.h"
+   source_files =  "JPUSHService.h"
    s.vendored_libraries = "lib/*.a"
  # s.exclude_files = "Classes/Exclude"
 
@@ -134,7 +134,7 @@ ios-cocoapods方式集成极光-liveneo-gaoyang
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
-  #  If your library depends on compiler flags you can set them in the xcconfig hash
+ b #  If your library depends on compiler flags you can set them in the xcconfig hash
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
