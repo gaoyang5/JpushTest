@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "JpushTest"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "ceshi JpushTest cocoapods "
 
   # This description is used to generate tags and improve search results.
@@ -93,7 +93,7 @@ ios-cocoapods方式集成极光-liveneo-gaoyang
 
  # s.source_files  = "Classes", "Classes/**/*.{h,m}"
    s.source_files =  "JPUSHService.h"
-   s.vendored_libraries = "lib/*.a"
+   s.vendored_libraries = "jcore-ios-1.0.0.a","jpush-ios-3.0.0.a"
  # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
